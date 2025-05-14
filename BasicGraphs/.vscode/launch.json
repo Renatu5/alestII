@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CaminhamentoProfundidade",
+            "request": "launch",
+            "mainClass": "CaminhamentoProfundidade",
+            "projectName": "BasicGraphs"
+        },
+        {
+            "type": "java",
+            "name": "CaminhamentoLargura",
+            "request": "launch",
+            "mainClass": "CaminhamentoLargura",
+            "projectName": "BasicGraphs"
+        },
+        {
+            "type": "java",
             "name": "Debug Graph with Arguments Prompt",
             "request": "launch",
             "cwd": "${workspaceFolder}",
