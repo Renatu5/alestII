@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CicloDirigido",
+            "request": "launch",
+            "mainClass": "CicloDirigido",
+            "projectName": "BasicGraphs"
+        },
+        {
+            "type": "java",
+            "name": "Ciclo",
+            "request": "launch",
+            "mainClass": "Ciclo",
+            "projectName": "BasicGraphs"
+        },
+        {
+            "type": "java",
             "name": "CaminhamentoProfundidade",
             "request": "launch",
             "mainClass": "CaminhamentoProfundidade",
