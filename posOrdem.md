@@ -1,0 +1,1 @@
+Ordenação Topológica é a Pós-Ordem + Caminhamento-Reverso
