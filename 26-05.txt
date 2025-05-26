@@ -1,0 +1,11 @@
+MST = Árvore geradora minima
+ - Objetivo unico: Caminhamento unico
+ - algoritmos: Kruskal, Prim
+    - Kruskal: "pega" o vertice de menor peso
+    - Prim: Apartir de um vértice inicial(qualquer), conecta os adjacentes ou não, 
+     caso tenha ciclo.
+ - Estrutura: Grafo Valorado(peso)
+ - pre-requisitos
+    - Sem ciclos
+    - Conectar todos os vértices
+    - Todo Grafo conectado
