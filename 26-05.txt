@@ -1,9 +1,29 @@
 MST = Árvore geradora minima
+ - porque se chama arvore?
+  -R: Porque arovres não tem ciclo
  - Objetivo unico: Caminhamento unico
  - algoritmos: Kruskal, Prim
-    - Kruskal: "pega" o vertice de menor peso
-    - Prim: Apartir de um vértice inicial(qualquer), conecta os adjacentes ou não, 
-     caso tenha ciclo.
+    - Kruskal: 
+       - Fila de prioridade(MinPQ)
+          - MinPQ implementando(com java) com a interfce "Comparable"
+       - Union-Find:
+          - Verifica se tem Ciclo
+       - "pega" o vertice de menor peso
+    - Prim:
+         - Dois implementações:
+          - A preguiçosa(Lazy)
+          - A impaciente(Eagler)
+         - possui visited, edgeTo[] e distTo[]
+         - Apartir de um vértice inicial(qualquer), conecta os adjacentes ou não, 
+          caso tenha ciclo.
+         - e vai iterando a cada adjacentes, conectando os 2 que tiverem menor valor,
+          caso não haja ciclo.
+         - ele precisa de um auxilio(ajuda), pq?
+          - para cada adjacente *NOVO*(que ainda n foi visitado), precisa alterar a
+             prioridade, que no exemplo em aula, utiliza o de menor peso(podendo variar)
+         - Utiliza um "heap+", chamado IndexMinHeap()
+         - Utiliza a estrutura do DFS de não conectar verticies visitados(visited[])
+           para evitar ciclos
  - Estrutura: Grafo Valorado(peso)
  - pre-requisitos
     - Sem ciclos
