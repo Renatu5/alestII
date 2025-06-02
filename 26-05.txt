@@ -24,7 +24,7 @@ MST = Árvore geradora minima
          - Utiliza um "heap+", chamado IndexMinHeap()
          - Utiliza a estrutura do DFS de não conectar verticies visitados(visited[])
            para evitar ciclos
- - Estrutura: Grafo Valorado(peso)
+ - Estrutura: Grafo Valorado(peso) 
  - pre-requisitos
     - Sem ciclos
     - Conectar todos os vértices

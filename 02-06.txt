@@ -1,0 +1,12 @@
+Caminhamento Minimo: mais CURTO
+ - Single Source:
+     - de um vértice ´s´ para todos os demais vertices
+ - Single Sink:
+  - 
+- não possui ciclos(pelo menos, negativos)
+- API de Digrafo Valorado
+- quanto que eu pago para ir de um vertice para outro? (baseado no PESO(Weigth))
+
+
+descobrir o valor do peso da aresta é fazer o caminho inverso, e somar os pesos, regra de 3 com os pesos em
+direção ao vertice que eu quero ir.(photo)
