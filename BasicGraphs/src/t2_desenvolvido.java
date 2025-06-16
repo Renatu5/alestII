@@ -44,10 +44,13 @@ public class t2_desenvolvido {
                 int v2 = (caractere = leitor.read());
                 if (v1 == -1 || v2 == -1)
                     break;
-                // System.out.println("valor de v1: " + v1);
+                System.out.println("valor de v1: " + v1);
                 // System.out.println("valor de v2: " + v2);
-                if( v1 != v2)
+                if( v1 != v2){
+                    // v1 = v1 == 83 ? 97 : v1;
+                    if(v2 - v1 <= 0 || v2 - v1 == 1 || v1 == 83)
                     testGraph.addEdge(v1, v2);
+                }
                 // AQUI PRINTA OS CARACTERES, CONVERTENDO DE ASCII PARA CHAR
 
                     // System.out.print((char) caractere);
